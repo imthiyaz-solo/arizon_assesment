@@ -121,7 +121,7 @@ export default function Navbar() {
             </div>
 
             {mobileMenuOpen && (
-                <div className='md:hidden bg-gray-700 text-white p-4 space-y-2 mt-[60px] fixed w-full h-[70vh] overflow-y-auto transition duration-500'>
+                <div className='md:hidden bg-gray-700 text-white p-4 space-y-2 mt-[60px] fixed w-full h-[50vh] overflow-y-auto transition duration-500'>
                     {categories.map((category) => (
                         <div key={category}>
                             <Link
