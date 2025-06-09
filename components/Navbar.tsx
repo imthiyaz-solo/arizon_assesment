@@ -121,26 +121,31 @@ export default function Navbar() {
             </div>
 
             {mobileMenuOpen && (
-                <div className='md:hidden bg-gray-700 text-white p-4 space-y-2 mt-[60px] fixed w-full h-[50vh] overflow-y-auto transition duration-500'>
+                <div className='md:hidden bg-gray-700 text-white p-4 space-y-2 mt-[60px] fixed w-full h-[70vh] overflow-y-auto transition duration-500'>
                     {categories.map((category) => (
                         <div key={category}>
-                            <button
-                                className='w-full text-left flex justify-between items-center px-3 py-2 hover:bg-gray-600 rounded'
-                                onClick={() => toggleMobileCategory(category)}
+                            <Link
+                                href={`/products/${category}`}
+                                className=''
                             >
-                                <span className='capitalize'>{category}</span>
-                                <svg
-                                    className={`w-4 h-4 transform transition-transform ${mobileOpenCategory === category ? 'rotate-180' : ''
-                                        }`}
-                                    fill='none'
-                                    stroke='currentColor'
-                                    strokeWidth='2'
-                                    viewBox='0 0 24 24'
-                                    xmlns='http://www.w3.org/2000/svg'
+                                <button
+                                    className='w-full text-left flex justify-between items-center px-3 py-2 hover:bg-gray-600 rounded'
+                                    onClick={() => toggleMobileCategory(category)}
                                 >
-                                    <path strokeLinecap='round' strokeLinejoin='round' d='M19 9l-7 7-7-7' />
-                                </svg>
-                            </button>
+                                    <span className='capitalize'>{category}</span>
+                                    <svg
+                                        className={`w-4 h-4 transform transition-transform ${mobileOpenCategory === category ? 'rotate-180' : ''
+                                            }`}
+                                        fill='none'
+                                        stroke='currentColor'
+                                        strokeWidth='2'
+                                        viewBox='0 0 24 24'
+                                        xmlns='http://www.w3.org/2000/svg'
+                                    >
+                                        <path strokeLinecap='round' strokeLinejoin='round' d='M19 9l-7 7-7-7' />
+                                    </svg>
+                                </button>
+                            </Link>
 
                             {/* Submenu */}
                             {mobileOpenCategory === category && (
