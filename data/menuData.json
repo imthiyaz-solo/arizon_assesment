@@ -1,0 +1,147 @@
+[
+    {
+        "category": "electronics",
+        "subCategories": [
+            {
+                "name": "Storage Devices",
+                "items": [
+                    {
+                        "id": 9,
+                        "name": "WD 2TB Elements Portable External Hard Drive"
+                    },
+                    {
+                        "id": 10,
+                        "name": "SanDisk SSD PLUS 1TB Internal SSD"
+                    },
+                    {
+                        "id": 11,
+                        "name": "Silicon Power 256GB SSD"
+                    },
+                    {
+                        "id": 12,
+                        "name": "WD 4TB Gaming Drive for PS4"
+                    }
+                ]
+            },
+            {
+                "name": "Monitors",
+                "items": [
+                    {
+                        "id": 13,
+                        "name": "Acer SB220Q 21.5\" Full HD Monitor"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Samsung 49-Inch CHG90 144Hz Curved Monitor"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "jewelery",
+        "subCategories": [
+            {
+                "name": "Bracelets",
+                "items": [
+                    {
+                        "id": 5,
+                        "name": "John Hardy Gold & Silver Dragon Station Bracelet"
+                    }
+                ]
+            },
+            {
+                "name": "Rings",
+                "items": [
+                    {
+                        "id": 6,
+                        "name": "Solid Gold Petite Micropave"
+                    },
+                    {
+                        "id": 7,
+                        "name": "White Gold Plated Princess Ring"
+                    }
+                ]
+            },
+            {
+                "name": "Earrings",
+                "items": [
+                    {
+                        "id": 8,
+                        "name": "Pierced Owl Rose Gold Tunnel Plug Earrings"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "men's clothing",
+        "subCategories": [
+            {
+                "name": "Jackets",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "Fjallraven Backpack"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Mens Cotton Jacket"
+                    }
+                ]
+            },
+            {
+                "name": "Shirts",
+                "items": [
+                    {
+                        "id": 2,
+                        "name": "Mens Casual Premium Slim Fit T-Shirts"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Mens Casual Slim Fit"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "women's clothing",
+        "subCategories": [
+            {
+                "name": "Jackets & Coats",
+                "items": [
+                    {
+                        "id": 15,
+                        "name": "BIYLACLESEN Women's 3-in-1 Winter Jacket"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Lock and Love Women's Faux Leather Moto Biker Jacket"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Rain Jacket Women Windbreaker"
+                    }
+                ]
+            },
+            {
+                "name": "Tops & Tees",
+                "items": [
+                    {
+                        "id": 18,
+                        "name": "MBJ Women's Boat Neck V Tee"
+                    },
+                    {
+                        "id": 19,
+                        "name": "Opna Women's Moisture-Wicking Tee"
+                    },
+                    {
+                        "id": 20,
+                        "name": "DANVOUY Women's Casual Cotton T-Shirt"
+                    }
+                ]
+            }
+        ]
+    }
+]
