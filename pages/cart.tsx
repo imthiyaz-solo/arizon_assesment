@@ -46,7 +46,7 @@ const Cart = () => {
     if (cart.length === 0) {
         return (
             <div className='text-center py-20'>
-                <h2 className='text-xl font-semibold'>Your cart is empty 😕</h2>
+                <h2 className='text-xl font-semibold'>Your cart is empty! 🫨</h2>
             </div>
         );
     }
@@ -73,7 +73,7 @@ const Cart = () => {
                                 />
                                 <div className='flex-1'>
                                     <h2 className='font-semibold text-sm md:text-base'>{item.title}</h2>
-                                    <p className='text-gray-600 mt-1'>₹{item.price.toFixed(2)}</p>
+                                    <p className='text-gray-600 mt-1'>${item.price.toFixed(2)}</p>
                                     <div className='flex items-center mt-2 space-x-2'>
                                         <button
                                             onClick={() => decrement(item.id)}
