@@ -59,7 +59,7 @@ const features = [
   {
     src: <FaStar />,
     title: "Unrivalled Customer Service",
-    desc: "With over 75 years' industry experience, you can trust Quality Bearings Online.",
+    desc: "With over 75 years' industry experience, you can trust ShopNex Online.",
   },
   {
     src: <FaAward />,
@@ -76,7 +76,7 @@ const features = [
 const topCategories = {
   heading: "Top Categories",
   subHeading:
-    "Whatever Electronic, clothing, jewelry, bearing, adhesive, lubricant or grease you are after at Quality Bearings Online we are bound to stock it. As a leading bearings supplier we offer products from trusted industry manufacturers. Discover some of our top product categories below.",
+    "Whatever Electronic, clothing, jewelry, bearing, adhesive, lubricant or grease you are after at ShopNex Online we are bound to stock it. As a leading bearings supplier we offer products from trusted industry manufacturers. Discover some of our top product categories below.",
   items: [
     { title: "Electronics", src: <FaTv /> },
     { title: "Clothing", src: <FaTshirt /> },
@@ -90,9 +90,9 @@ const topCategories = {
 };
 
 const whyChooseData = {
-  heading: "Why Choose Quality Bearings Online?",
+  heading: "Why Choose ShopNex Online?",
   descriptions: [
-    "At Quality Bearings Online, we are a leading bearings supplier with over 75 years of industry experience. We are a multi award winning company, supplying bearings and engineering spares to customers in over 110 countries worldwide. We pride ourselves on offering trusted brands, expert knowledge, excellent customer service and rapid delivery anywhere in the world. What’s more, we ensure that our products are distributed globally within 1-3 working days.",
+    "At ShopNex Online, we are a leading bearings supplier with over 75 years of industry experience. We are a multi award winning company, supplying bearings and engineering spares to customers in over 110 countries worldwide. We pride ourselves on offering trusted brands, expert knowledge, excellent customer service and rapid delivery anywhere in the world. What’s more, we ensure that our products are distributed globally within 1-3 working days.",
     "Our products are used in sectors as diverse as Food Manufacturing, Aerospace, Oil and Gas and Precision Engineering, and whether you are a large multi-national or single site company, we delight in exceeding your expectations. Trust us as your industry bearings supplier.",
   ],
   buttonTitle: "READ MORE",
@@ -201,7 +201,7 @@ export default function Home() {
         <InfoCard data={trustData} />
       </div>
       <div className='py-4 md:py-10 pt-24 md:pt-10 '>
-        <InfoSection heading="Industry Leading Bearings Supplier" items={features} type='icon' />
+        <InfoSection heading="Industry Leading Supplier" items={features} type='icon' />
       </div>
 
       <div className='py-4 md:py-10'>
