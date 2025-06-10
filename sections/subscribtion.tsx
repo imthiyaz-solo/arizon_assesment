@@ -9,19 +9,20 @@ const Subscribe = () => {
                     company announcements, and industry news.
                 </p>
 
-                <form className="flex w-full max-w-md">
+                <form className="flex flex-wrap sm:flex-nowrap justify-end">
                     <input
                         type="email"
                         placeholder="Your email address"
-                        className="flex-grow px-4 py-2 text-gray-700 bg-white placeholder-gray-500"
+                        className="flex-grow px-4 py-2 text-gray-700 bg-white placeholder-gray-500 outline-none focus:ring-2 focus:ring-[#d19c21]"
                     />
                     <button
-                        type="button"
-                        className="cursor-pointer bg-[#d19c21] text-white font-bold px-5 py-2 hover:bg-yellow-600 transition-colors"
+                        type="submit"
+                        className="bg-[#d19c21] text-white font-bold px-5 py-2 hover:bg-yellow-600 transition-colors"
                     >
                         SUBSCRIBE
                     </button>
                 </form>
+
             </div>
         </div>
     );
