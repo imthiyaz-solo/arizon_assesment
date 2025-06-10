@@ -16,7 +16,7 @@ export default function ProductPage({ product }: { product: ProductPageProps }) 
             <Head>
                 <title>{product.title} | Product Detail</title>
             </Head>
-            <div className='max-w-6xl mx-auto p-6'>
+            <div className='max-w-6xl mx-auto p-6 pt-24 md:pt-6'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 flex justify-center'>
 
                     <div className='flex justify-center'>

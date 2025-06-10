@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/shopping-bag.png" />
       </Head>
       <Navbar />
-      <main className='pt-24 md:pt-6'>
+      <main className=''>
         <Component {...pageProps} />
       </main>
     </>

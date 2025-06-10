@@ -30,7 +30,7 @@ export default function ProductListingPage({ products, category }: Props) {
             <Head>
                 <title>{category} - Products</title>
             </Head>
-            <div className='max-w-7xl mx-auto p-4'>
+            <div className='max-w-7xl mx-auto p-4 pt-24 md:pt-6'>
                 <h1 className="text-3xl md:text-4xl rounded shadow-lg w-fit font-extrabold capitalize mb-8 text-gray-800 border-b-1 border-gray-800 p-2">
                     {category}
                 </h1>
