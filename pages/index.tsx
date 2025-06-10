@@ -28,7 +28,6 @@ import InfoSection from '@/components/infoSection';
 import WhyChooseSection from '@/components/whySection';
 import ReviewCarousel from '@/components/reviewCorousel';
 import BrandLogos from '@/components/brandLogo';
-import Footer from '@/sections/footer';
 import Subscribe from '@/sections/subscribtion';
 import CustomerReviewSummary from '@/sections/customerRating';
 
@@ -86,9 +85,7 @@ const topCategories = {
     { title: "Adhesives & Sealants", src: <FaTools /> },
     { title: "Lubricants & Greases", src: <FaOilCan /> },
     { title: "Power Transmission", src: <FaBolt /> },
-    { title: "Pneumatics", src: <FaWind /> },
-    { title: "Safety & PPE", src: <FaHardHat /> },
-    { title: "Fasteners", src: <FaShieldAlt /> },
+    { title: "Pneumatics", src: <FaWind /> }
   ],
 };
 
@@ -213,8 +210,8 @@ export default function Home() {
           subHeading={topCategories.subHeading}
           items={topCategories.items}
           type='icon'
-          total={5}
-          width='85%'
+          total={4}
+          width='90%'
         />
       </div>
 
@@ -252,10 +249,6 @@ export default function Home() {
 
       <div>
         <Subscribe />
-      </div>
-
-      <div>
-        <Footer />
       </div>
     </>
   );
